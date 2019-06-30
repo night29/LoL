@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+h1 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1215px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: gray;
+    margin-top: -7px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    width: 200px;
+    border-right: solid 1px blue;
+}
+
+nav a {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #ffc0cb;
+    margin: 5px;
+    text-align: center;
+}
+
+nav {
+    border: solid 1px blue;
+}
+
+.zatu {
+    border: none;
+}
+
+.kizi {
+    width: 850px;
+    height: 1000px;
+    border: solid 1px black;
+    margin-top: 15px;
+    float: left;
+}
+
+.kizi img {
+    float: left;
+    width: 352px;
+    height: 198px;
+    margin: 5px;
+}
+
+.jgkiso {
+    margin: 15px;
+    border-bottom: solid 2px gray;
+    height: 205px;
+}
+
+.sup {
+    margin: 15px;
+    border-bottom: solid 2px gray;
+    height: 205px;
+}
+
+
+.time {
+    font-size: 12px;
+    color: gray;
+}
+
+#sidebar {
+    float: left;
+    width: 280px;
+    margin: 10px 12px 10px 12px;
+    background: #fff;
+    padding: 8px;
+}
+
+#sidebar {
+    margin-bottom: 16px;
+}
+
+#sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p {
+    font-size: 16px;
+}
+
+.jax {
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar h4 {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.hamu {
+    width: 170px;
+    height: 170px;
+}
+
+h5 {
+    font-size: 20px;
+}

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+h1 {
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1215px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: gray;
+    margin-top: -7px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    width: 200px;
+    border-right: solid 1px blue;
+}
+
+nav a {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #ffc0cb;
+    margin: 5px;
+    text-align: center;
+}
+
+nav {
+    border: solid 1px blue;
+}
+
+.zatu {
+    border: none;
+}
+
+.profile {
+    width: 850px;
+    height: 100%;
+    border: double 4px #8ec6ff;
+    margin-top: 15px;
+    float: left;
+}
+
+.profile img {
+    padding: 10px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 5px;
+}
+
+#sidebar {
+    float: left;
+    width: 280px;
+    margin: 10px 12px 10px 12px;
+    background: #fff;
+    padding: 8px;
+}
+
+#sidebar {
+    margin-bottom: 16px;
+}
+
+#sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p {
+    font-size: 16px;
+}
+
+.jax {
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar h4 {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.hamu {
+    width: 170px;
+    height: 170px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.opgg {
+    width: 800px;
+}
+
+.balloon5 {
+    width: 100%;
+    margin: 1.5em 0;
+    overflow: hidden;
+}
+
+.balloon5 .faceicon {
+    float: left;
+    margin-right: -90px;
+    width: 80px;
+}
+
+.balloon5 .faceicon img {
+    width: 100%;
+    height: auto;
+}
+
+.balloon5 .chatting {
+    width: 100%;
+}
+
+.says {
+    display: inline-block;
+    position: relative;
+    margin: 5px 0 0 105px;
+    padding: 17px 13px;
+    border-radius: 12px;
+    background: #d7ebfe;
+}
+
+.says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    left: -24px;
+    border: 12px solid transparent;
+    border-right: 12px solid #d7ebfe;
+}
+
+.says p {
+    margin: 0;
+    padding: 0;
+}
